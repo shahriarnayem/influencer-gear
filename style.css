@@ -77,7 +77,8 @@ header i{
 }
 
 .hero{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 100px;
     align-items: center;
     padding: 80px 20px;
@@ -94,10 +95,51 @@ header i{
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    max-width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
 }
 
-.hero-image .hero-main-image{
-    padding: 64px;
+
+.logos-area{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #f7f1ff;
+    border-radius: 32px;
 }
 
+.products{
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+
+}
+
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.product-card{
+    background-color: #f7f1ff;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 32px;
+    padding-bottom: 32px;
+}
+.product-card h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.product-card img{
+    width: 100%;
+    border-radius: 16px;
+}
