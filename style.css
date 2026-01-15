@@ -5,6 +5,57 @@
 }
 
 body{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 1.3em;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+    padding: 40px 20px;
+
+}
+header h2{
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+header h2 span{
+    color: #E02C6D;
+}
+
+.mobile-menu{
+    display: none;
+}
+nav{
+    display: flex;
+    list-style: none;
+}
+
+nav{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+header i{
+    color: #E02C6D;
+    font-size: 20px;
 }
