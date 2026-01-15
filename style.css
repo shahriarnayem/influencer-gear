@@ -15,6 +15,12 @@ h1{
     text-transform: uppercase;
 }
 
+h2{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1em;
+}
+
 button{
     background-color: #E02C6D;
     color: #fff;
@@ -100,14 +106,21 @@ header i{
     align-items: center;
     padding: 48px;
 }
-
+.logos{
+    padding: 0 20px;
+}
 
 .logos-area{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 40px;
     background-color: #f7f1ff;
     border-radius: 32px;
+    flex-wrap: wrap;
+    gap: 24px;
+    column-gap: 24px;
+    row-gap: 32px;
 }
 
 .products{
@@ -116,7 +129,10 @@ header i{
     flex-direction: column;
     gap: 40px;
     justify-content: center;
+}
 
+.products h2{
+    text-align: center;
 }
 
 .product-grid{
@@ -142,4 +158,102 @@ header i{
 .product-card img{
     width: 100%;
     border-radius: 16px;
+}
+
+
+.reviews-ratings{
+    display: flex;
+    gap: 16px;
+    font-size: 14px;
+    color: #555;
+}
+
+.rating-star{
+    color: rgb(255, 174, 0);
+}
+
+.cta-section{
+    padding: 0 20px;
+    margin-bottom: 80px;
+}
+
+.cta{
+    padding: 16px;
+    background-color: #f7f1ff;
+    border-radius: 32px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.cta-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+}
+
+.cta-content h2{
+    font-size: 36px;
+}
+
+.cta img{
+    border-radius: 16px;
+}
+
+footer{
+    background-color: #0b0827;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+footer h2{
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none
+    ;
+}
+
+footer span{
+    color: #E02C6D;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #fff;
+
+}
+
+.social-icon{
+    display: flex;
+    gap: 20px;
+}
+
+.social-icon a{
+    background-color: #16132e;
+    /* line-height: 1; */
+    padding: 8px;
+    border-radius: 20px;
+    aspect-ratio: 1;
+    /* align-content: center; */
+    transition: .3s;
+}
+
+.social-icon a:hover{
+    background-color: #ffffff;
+    color: #E02C6D;
+}
+
+.social-icon i{
+    align-content: center;
+    align-self: center;
+    line-height: 1px;
 }
