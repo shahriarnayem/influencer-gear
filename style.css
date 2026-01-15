@@ -9,6 +9,22 @@ body{
     line-height: 1.3em;
 }
 
+h1{
+    font-size: 52px;
+    line-height: 1.1em;
+    text-transform: uppercase;
+}
+
+button{
+    background-color: #E02C6D;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    padding: 16px 32px;
+    text-transform: uppercase;
+    border-radius: 32px;
+    margin-top: 16px;
+}
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -59,3 +75,30 @@ header i{
     color: #E02C6D;
     font-size: 20px;
 }
+
+.hero{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    padding: 80px 20px;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-image{
+    background-image: url("./images/Group\ 33091\ \(1\).svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 40%;
+}
+
+
+.hero-image .hero-main-image{
+    padding: 64px;
+}
+
